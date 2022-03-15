@@ -28,6 +28,7 @@ function smash (words) {
 ## Courses
 * [Frontend-разработка с применением CSS, HTML и JavaScript](https://stc.innopolis.university/javascript)
 * [Основы Frontend-разработки](https://cat.2035.university/rall/course/11957/)
+* [Hexlet: Введение в программирование (JavaScript ES6)](https://stepik.org/course/13929/syllabus)
 *********
 ## Languages
 В1 (English course at Infinity School and Duolingo )
