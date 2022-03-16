@@ -41,3 +41,111 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* +++++++++++++++++++++++++++++ */
+body {
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+.cv {
+	margin: 0 auto;
+	width: 1000px;
+}
+.about,
+.attainments {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.about__wrapper {
+	max-width: 620px;
+}
+.about__full-name {
+	font-size: 44px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 57px;
+	letter-spacing: 0em;
+	text-align: left;
+	margin-bottom: 25px;
+
+}
+.heading-level-2 {
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 16px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.color-gradient {
+	background: linear-gradient(135deg, #FF26B2 0%, #851BD9 64.06%, #3F0FFF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+.about__telegram svg, 
+.about__discort svg,
+.about__git svg {
+	fill: #af48ff;
+	margin-right: 3px;
+}
+.about__telegram,
+.about__discort,
+.about__git {
+	font-size: 16px;
+	line-height: 12px;
+	text-align: right;
+	text-decoration-line: underline;
+	display: inline; 
+    margin-right: 15px; 
+}
+.about__avatar {
+	position: relative;
+   	overflow:hidden;
+   	width:300px;
+   	height:300px;
+}
+.about__img {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:300px;
+	height:300px;
+	object-fit:cover;
+	border-radius: 50%;
+
+}
+.experience {
+	width: 342px;
+}
+.experience__projects,
+.experience__code-example,
+.experience__work,
+.stack__skills,
+.stack__education,
+.stack__courses,
+.stack__languages {
+	border-bottom: 0.5px solid #999999;
+	margin-bottom: 20px;
+}
+.cv__description {
+	margin: 10px 0;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 17px;
+	color: #999999;
+	display: block;
+}
+.experience__example {
+	font-size: 10px;
+}
+
+.stack {
+	width: 450px;
+}
+
+.stack__list li {
+	display: inline; 
+    margin-right: 5px; 
+}
